@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+//output text with the echo command
+echo "<h1> PHP is fun!!!</h1>";
+echo "First ", "Second ", "Third ", "Fourth ", "Fifth ";
+echo "Hey World";
+
+
+
+// output text and variables with the echo statement:
+$txt1 = "Leran PHP";
+$txt2 = "shreepanch.com";
+$x = 10;
+$y = 20;
+echo "<h2>" . $txt1 . "</h2>";
+echo "Study PHP at " . $txt2 . "<br>";
+echo "<br>";
+echo $x + $y;
+
+
+// how to output text with the print command
+
+print "<h2> PHP is Fun </h2>";
+print "Hello World!!<br>";
+print "<br>";
+print "About to leran php!!";
+
+?>
+<body>
+<html>
